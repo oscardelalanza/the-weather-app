@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "microverse project (APIs, promises, async)",
+  "private": true,
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscardelalanza/the-weather-app.git"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "Async",
+    "Pomises",
+    "Microverse",
+    "TheOdinPoject"
+  ],
+  "author": "Oscar De La Lanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscardelalanza/the-weather-app/issues"
+  },
+  "homepage": "https://github.com/oscardelalanza/the-weather-app#readme"
+}
