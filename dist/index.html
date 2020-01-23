@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>The Weather App</title>
 </head>
 <body>
+    <header>
+       <div class="form-container">
+           <form id="info">
+               <input type="text" id="city" name="city" placeholder="City">
+               <input type="radio" name="units" value="metric" id="metric">
+               <label for="metric">C°</label>
+               <input type="radio" name="units" value="imperial" id="imperial">
+               <label for="imperial">F°</label>
+           </form>
+       </div>
+        <button><i class="fas fa-chevron-right"></i></button>
+    </header>
     <script src="main.bundle.js"></script>
 </body>
 </html>
