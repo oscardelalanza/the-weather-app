@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-.show {
-    display: inline-block;
-}
-
 body {
     background: #a0a0a0;
     font-size: 16px;
@@ -21,9 +17,12 @@ header {
 
     .form-container {
         background: #fff;
+        transition: width 1s ease;
+        width: 0;
+        height: 35px;
+        overflow: hidden;
 
         form {
-            display: none;
             padding-left: 10px;
 
             input {
@@ -71,6 +70,10 @@ header {
                 }
             }
         }
+    }
+
+    .show {
+        width: 360px;
     }
 
     button {
