@@ -6,7 +6,10 @@
 }
 
 body {
-    background: #a0a0a0;
+    background-image: url("https://source.unsplash.com/random");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 16px;
     font-family: sans-serif;
 }
@@ -14,6 +17,13 @@ body {
 header {
     padding-top: 20px;
     display: flex;
+
+    nav {
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.5);
+        display: flex;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+    }
 
     .form-container {
         background: #fff;
@@ -73,7 +83,7 @@ header {
     }
 
     .show {
-        width: 360px;
+        width: 340px;
     }
 
     button {

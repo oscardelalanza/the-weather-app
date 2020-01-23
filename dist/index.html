@@ -6,17 +6,24 @@
 </head>
 <body>
     <header>
-       <div class="form-container">
-           <form id="info">
-               <input type="text" id="city" name="city" placeholder="City">
-               <input type="radio" name="units" value="metric" id="metric">
-               <label for="metric">C°</label>
-               <input type="radio" name="units" value="imperial" id="imperial">
-               <label for="imperial">F°</label>
-           </form>
-       </div>
-        <button id="openSearchBtn"><i class="fas fa-search"></i></button>
+       <nav>
+           <div class="form-container">
+               <form id="form">
+                   <input type="text" id="city" name="city" placeholder="City">
+                   <input type="radio" name="units" value="metric" id="metric" checked>
+                   <label for="metric">C°</label>
+                   <input type="radio" name="units" value="imperial" id="imperial">
+                   <label for="imperial">F°</label>
+               </form>
+           </div>
+           <button id="openSearchBtn"><i class="fas fa-search"></i></button>
+       </nav>
     </header>
+    <main>
+        <div id="info">
+
+        </div>
+    </main>
     <script src="main.bundle.js"></script>
 </body>
 </html>
