@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/random");
+    background-image: url("https://source.unsplash.com/random/?city,clouds,night");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,6 +40,10 @@ header {
 
         form {
             padding-left: 10px;
+
+            .required {
+                background: rgba(#ef233c, 0.2);
+            }
 
             input {
                 padding: 10px;

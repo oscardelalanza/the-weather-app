@@ -9,6 +9,34 @@ const formPrevent = () => {
 
 };
 
+const getFormData = () => {
+
+    let data = false;
+    const city = document.getElementById('city');
+
+    if (form.city.value !== '') {
+
+        if (city.classList.contains('required')) {
+            city.classList.remove('required');
+        }
+
+        data = {
+            city: form.city.value,
+            units: form.units.value,
+        };
+
+    } else {
+
+        city.classList.add('required');
+
+    }
+
+    return data;
+
+};
+
 export {
     formPrevent,
+    getFormData,
+    searchBtn
 }
