@@ -25,6 +25,8 @@ const getFormData = () => {
             units: form.units.value,
         };
 
+        form.reset();
+
     } else {
 
         city.classList.add('required');
