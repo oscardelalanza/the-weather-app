@@ -1,12 +1,14 @@
-const openSearchBtn = document.getElementById('openSearchBtn');
+const form = document.getElementById('form');
+const searchBtn = document.getElementById('searchBtn');
 
-const toggleSearchBar = () => {
+const formPrevent = () => {
 
-    openSearchBtn.addEventListener('click',  () => {
-        document.getElementsByClassName('form-container')[0].classList.toggle('show');
-    });
+  form.addEventListener('submit', e => {
+     e.preventDefault();
+  });
+
 };
 
 export {
-    toggleSearchBar
+    formPrevent,
 }

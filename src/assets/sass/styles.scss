@@ -23,6 +23,12 @@ header {
         display: flex;
         border-bottom-right-radius: 16px;
         border-top-right-radius: 16px;
+
+        &:hover {
+            .form-container {
+                width: 340px;
+            }
+        }
     }
 
     .form-container {
@@ -80,10 +86,6 @@ header {
                 }
             }
         }
-    }
-
-    .show {
-        width: 340px;
     }
 
     button {

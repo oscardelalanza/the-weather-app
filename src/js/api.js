@@ -6,4 +6,4 @@ export const getWeather = async (city, units = 'metric') => {
     const response = await fetch(url);
     return await response.json();
 
-};
+}; 
