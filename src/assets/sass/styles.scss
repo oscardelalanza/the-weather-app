@@ -95,11 +95,17 @@ header {
 
     button {
         display: inline-block;
-        padding: 10px 16px;
+        padding: 0 16px;
         color: #0b7a75;
         background: #fff;
         border-bottom-right-radius: 16px;
         border-top-right-radius: 16px;
+        font-size: 18px;
+        font-weight: bold;
+
+        &:hover {
+            background: #e3fffd;
+        }
     }
 }
 
