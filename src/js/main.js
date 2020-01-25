@@ -15,7 +15,7 @@ searchBtn.addEventListener('click', () => {
         weatherApi(data.city, data.units).then(json  => {
 
             if (json.cod === 200) {
-
+                console.log(json);
             } else {
 
             }
