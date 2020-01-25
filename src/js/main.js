@@ -1,4 +1,4 @@
-import '../../node_modules/@fortawesome/fontawesome-free/js/all';
+import '@fortawesome/fontawesome-free/js/all';
 import '../assets/sass/styles.scss';
 import {
   formPrevent, getFormData, searchBtn, setData, setError,
