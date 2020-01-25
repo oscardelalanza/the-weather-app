@@ -59,11 +59,9 @@ const setError = json => {
 };
 
 export {
-
   formPrevent,
   getFormData,
   searchBtn,
   setData,
   setError,
-
 };

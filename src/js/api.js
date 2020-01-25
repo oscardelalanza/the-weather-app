@@ -7,7 +7,5 @@ const weatherApi = async (city, units = 'metric') => {
 };
 
 export {
-
   weatherApi,
-
 };

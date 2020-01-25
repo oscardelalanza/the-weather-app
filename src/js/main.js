@@ -22,6 +22,3 @@ searchBtn.addEventListener('click', () => {
     });
   }
 });
-
-// TODO: get api info
-// TODO: render data on view
