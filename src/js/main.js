@@ -3,7 +3,7 @@ import '../assets/sass/styles.scss';
 import {
   formPrevent, getFormData, searchBtn, setData, setError,
 } from './dom';
-import { weatherApi } from './api';
+import weatherApi from './api';
 
 let data;
 
