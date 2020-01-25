@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     font-size: 16px;
     font-family: sans-serif;
+    transition: background-image 300ms ease-in-out;
 }
 
 header {
@@ -185,7 +186,7 @@ main {
                 border-left: solid 1px #d2d2d2;
             }
 
-            .visibility,
+            .country,
             .humidity,
             .pressure {
                 text-align: center;

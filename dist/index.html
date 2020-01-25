@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>The Weather App</title>
 </head>
-<body>
+<body id="body">
     <header>
        <nav>
            <div class="form-container">
@@ -23,7 +23,7 @@
         <h1>The Weather App</h1>
         <div id="info" class="info">
             <div class="temp-info">
-                <div class="small">Temp:</div>
+                <div class="small" id="labelTemp">Temp:</div>
                 <div id="name" class="city">City</div>
                 <div id="temp" class="temp">--</div>
                 <div id="minMax" class="min-max">Min / Max</div>
@@ -41,8 +41,8 @@
             </div>
             <div class="general-info">
                 <div>
-                    <div class="small">Visibility:</div>
-                    <div id="visibility" class="visibility">--</div>
+                    <div class="small">Country:</div>
+                    <div id="country" class="country">--</div>
                 </div>
                 <div class="side-borders">
                     <div class="small">Humidity:</div>

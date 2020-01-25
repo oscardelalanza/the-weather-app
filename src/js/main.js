@@ -1,6 +1,6 @@
 import '@fortawesome/fontawesome-free/js/all';
 import '../assets/sass/styles.scss';
-import { formPrevent, getFormData, searchBtn } from './dom';
+import { formPrevent, getFormData, searchBtn, setData, setError } from './dom';
 import { weatherApi } from './api';
 
 let data;
@@ -15,8 +15,12 @@ searchBtn.addEventListener('click', () => {
         weatherApi(data.city, data.units).then(json  => {
 
             if (json.cod === 200) {
-                console.log(json);
+
+                setData(json,  data.units);
+
             } else {
+
+                setError(json);
 
             }
 
