@@ -1,0 +1,205 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/random/?city,clouds,night");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: sans-serif;
+    transition: background-image 300ms ease-in-out;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+
+    nav {
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.5);
+        display: flex;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+
+        &:hover {
+            .form-container {
+                width: 340px;
+            }
+        }
+    }
+
+    .form-container {
+        background: #fff;
+        transition: width 1s ease;
+        width: 0;
+        height: 35px;
+        overflow: hidden;
+
+        form {
+            padding-left: 10px;
+
+            .required {
+                background: rgba(#ef233c, 0.2);
+            }
+
+            input {
+                padding: 10px;
+            }
+
+            input[type="radio"] {
+                display: none;
+
+                &:checked + label {
+                    padding: 5px 15px;
+                    background: #0b7a75;
+                    color: #fff;
+
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+
+            label {
+                color: #0b7a75;
+                display: inline-block;
+                padding: 5px 15px 5px 40px;
+                border-radius: 3px;
+                position: relative;
+                font-weight: 700;
+                transition: all 0.3s ease;
+
+                &::before {
+                    content: "";
+                    width: 10px;
+                    height: 10px;
+                    display: inline-block;
+                    background: none;
+                    border: solid 2px #0b7a75;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 15px;
+                    top: 7px;
+                }
+
+                &:hover {
+                    background: rgba(#0074d9, 0.1);
+                }
+            }
+        }
+    }
+
+    button {
+        display: inline-block;
+        padding: 0 16px;
+        color: #0b7a75;
+        background: #fff;
+        border-bottom-right-radius: 16px;
+        border-top-right-radius: 16px;
+        font-size: 18px;
+        font-weight: bold;
+
+        &:hover {
+            background: #e3fffd;
+        }
+    }
+}
+
+main {
+    margin-top: 50px;
+
+    h1 {
+        color: #fff;
+        text-align: center;
+    }
+
+    .info {
+        background: linear-gradient(120deg, rgba(#AB91FA, 0.9), rgba(#A2DFF6, 0.9));
+        width: 400px;
+        margin: 40px auto;
+        box-shadow: 0 0 18px rgba(#000, 0.5);
+        border-radius: 5px;
+        flex-wrap: wrap;
+        border: solid 1px #d2d2d2;
+        color: #f2f2f2;
+
+        .small {
+            text-align: left;
+            font-size: 10px;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+
+        .temp-info {
+            width: 100%;
+            text-align: center;
+            border-bottom: solid 1px #d2d2d2;
+            padding-bottom: 10px;
+
+            .temp {
+                font-size: 48px;
+                width: 100%;
+                margin-bottom: 15px;
+                margin-top: 15px;
+            }
+
+            .min-max,
+            .description,
+            .city {
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+
+            .city {
+                margin-top: 20px;
+            }
+        }
+
+        .sky-info {
+            display: flex;
+            border-bottom: solid 1px #d2d2d2;
+
+            .right-border {
+                border-right: solid 1px #d2d2d2;
+            }
+
+            div {
+                width: 50%;
+            }
+
+            .clouds,
+            .wind {
+                width: 100%;
+                text-align: center;
+                font-size: 16px;
+                padding: 10px 10px 25px 10px;
+            }
+        }
+
+        .general-info {
+            display: flex;
+
+            div {
+                width: 33%;
+            }
+
+            .side-borders {
+                border-right: solid 1px #d2d2d2;
+                border-left: solid 1px #d2d2d2;
+            }
+
+            .country,
+            .humidity,
+            .pressure {
+                text-align: center;
+                width: 100%;
+                padding: 10px 10px 25px 10px;
+                font-size: 16px;
+            }
+        }
+    }
+}

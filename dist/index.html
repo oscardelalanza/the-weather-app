@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Weather App</title>
+</head>
+<body id="body">
+    <header>
+       <nav>
+           <div class="form-container">
+               <form id="form">
+                   <input type="text" id="city" name="city" placeholder="City" required>
+                   <input type="radio" name="units" value="metric" id="metric" checked>
+                   <label for="metric">C°</label>
+                   <input type="radio" name="units" value="imperial" id="imperial">
+                   <label for="imperial">F°</label>
+               </form>
+           </div>
+           <button id="searchBtn">Q</button>
+       </nav>
+    </header>
+    <main>
+        <h1>The Weather App</h1>
+        <div id="info" class="info">
+            <div class="temp-info">
+                <div class="small" id="labelTemp">Temp:</div>
+                <div id="name" class="city">City</div>
+                <div id="temp" class="temp">--</div>
+                <div id="minMax" class="min-max">Min / Max</div>
+                <div id="description" class="description">Description</div>
+            </div>
+            <div class="sky-info">
+                <div class="right-border">
+                    <div class="small">Wind:</div>
+                    <div id="wind" class="wind">--</div>
+                </div>
+                <div>
+                    <div class="small">Clouds:</div>
+                    <div id="clouds" class="clouds">--</div>
+                </div>
+            </div>
+            <div class="general-info">
+                <div>
+                    <div class="small">Country:</div>
+                    <div id="country" class="country">--</div>
+                </div>
+                <div class="side-borders">
+                    <div class="small">Humidity:</div>
+                    <div id="humidity" class="humidity">--</div>
+                </div>
+                <div>
+                    <div class="small">Pressure:</div>
+                    <div id="pressure" class="pressure">--</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.bundle.js"></script>
+</body>
+</html>
