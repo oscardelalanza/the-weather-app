@@ -1,0 +1,47 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "microverse project (APIs, promises, async)",
+  "private": true,
+  "main": "src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscardelalanza/the-weather-app.git"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "Async",
+    "Pomises",
+    "Microverse",
+    "TheOdinPoject"
+  ],
+  "author": "Oscar De La Lanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscardelalanza/the-weather-app/issues"
+  },
+  "homepage": "https://github.com/oscardelalanza/the-weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
+  }
+}
