@@ -22,7 +22,6 @@ You can find the original requirements at [The Odin Project](https://www.theodin
 - Github: [@oscardelalanza](https://github.com/oscardelalanza)
 - Twitter: [@twitterhandle](https://twitter.com/oscardelalanza)
 - Linkedin: [Oscar De La Lanza](https://linkedin.com/in/oscardelalanza/)
-- [![Is oscardelalanza available for hire?](http://hireable.me/oscardelalanza)](http://hireable.me/p/oscardelalanza)
 
 ## 🤝 Contributing
 
