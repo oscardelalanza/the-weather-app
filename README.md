@@ -13,7 +13,7 @@ You can find the original requirements at [The Odin Project](https://www.theodin
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/oscardelalanza/the-weather-app/feature/weather/dist/index.html)
+[Live Demo Link](https://rawcdn.githack.com/oscardelalanza/the-weather-app/69f5652358031c37b246e14f9720f65c69709a8e/dist/index.html)
 
 ## Authors
 
