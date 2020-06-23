@@ -79,6 +79,7 @@ To build the project do the following
 - Github: [@oscardelalanza](https://github.com/oscardelalanza)
 - Twitter: [@twitterhandle](https://twitter.com/oscardelalanza)
 - Linkedin: [Oscar De La Lanza](https://linkedin.com/in/oscardelalanza/)
+- Email: oscardelalanza@gmail.com
 
 ## 🤝 Contributing
 
