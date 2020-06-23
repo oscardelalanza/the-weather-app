@@ -4,6 +4,8 @@
 >section of the Javascript course. Is intended for tests the knowledge of the student about 
 >asynchronous communication with promises or async/await and when to use them.
 
+![Screenshot](./screenshot.png)
+
 You can find the original requirements at [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/weather-app) 
 
 ## Built With
