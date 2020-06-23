@@ -35,6 +35,43 @@ Once you click the `Q` button, it will fill the central `div` with the weather i
 information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `country` and so on.
 ![weather](./screenshots/result.png)
 
+> To get a local copy up and running follow these simple example steps.
+ 
+### Prerequisites
+
+- `npm`
+- `git`
+
+### Setup
+
+To clone the project into your local environment do the following
+
+- open a new `terminal` window and navigate to the directory where the project will be stored
+- run the command `git clone git@github.com:oscardelalanza/the-weather-app.git`
+- run the command `cd the-weather-app` to enter to the project directory
+
+### Install
+
+To install the requires packages do the following
+
+- inside `the-weather-app` directory run the command `npm install`
+
+### Usage
+
+To start the local development server do the following
+
+- run the command `npm run dev` 
+
+### Run tests
+
+- no written tests yet
+
+### Deployment
+
+To build the project do the following
+
+- run the command `npm run build`
+
 ## Authors
 
 👤 **Oscar De La Lanza**
