@@ -19,7 +19,7 @@ You can find the original requirements at [The Odin Project](https://www.theodin
 
 ## Getting Started
 
-This project consist of an application to check the weather of any city in the world. It makes an `Http` request to the 
+This project consists of an application to check the weather of any city in the world. It makes an `Http` request to the 
 `OpenWeather API` in order to get the current weather conditions of the desired city. Also it makes a request to the `Unsplash API`
 in order to get a random image depending on the weather conditions of the requested city and placed as background.
 
