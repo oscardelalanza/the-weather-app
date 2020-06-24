@@ -72,6 +72,12 @@ To build the project do the following
 
 - run the command `npm run build`
 
+### Future features
+
+- icons on the search input
+- improve search bar effect
+- redefine background colors to make characters more visible
+
 ## Authors
 
 👤 **Oscar De La Lanza**
