@@ -1,7 +1,7 @@
 # The Weather App
 
 > The Weather App project comes at the end of the Asynchronous Javascript and APIs
-> section of the Javascript course. It is intended for tests the knowledge of the student about
+> section of the Javascript course. It is intended to test the knowledge of the student about
 > asynchronous communication with promises or async/await and when to use them.
 
 ![Screenshot](./screenshots/screenshot.png)
