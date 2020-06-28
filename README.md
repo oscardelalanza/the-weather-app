@@ -6,7 +6,7 @@
 
 ![Screenshot](./screenshots/screenshot.png)
 
-You can find the original requirements at [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/weather-app) 
+You can find the original requirements in [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/weather-app) 
 
 ## Built With
 
@@ -46,27 +46,28 @@ information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `count
 
 To clone the project into your local environment do the following
 
-- open a new `terminal` window and navigate to the directory where the project will be stored
-- run the command `git clone git@github.com:oscardelalanza/the-weather-app.git`
-- run the command `cd the-weather-app` to enter to the project directory
+- Open a new `terminal` window and navigate to the directory where the project will be stored
+- Run the command `git clone git@github.com:oscardelalanza/the-weather-app.git`
+- Run the command `cd the-weather-app` to enter to the project directory
 
 ### Install
 
 To install the requires packages do the following
 
-- inside `the-weather-app` directory run the command `npm install`
+- Inside `the-weather-app` directory run the command `npm install`
 
 ### Usage
 
-To start the local development server do the following
-
-- run the command `npm run dev` 
 
 ### Run tests
 
-- no written tests yet
+- This project doesn't contain tests
 
 ### Deployment
+
+To start the local development server do the following
+
+- Run the command `npm run dev` 
 
 To build the project do the following
 
