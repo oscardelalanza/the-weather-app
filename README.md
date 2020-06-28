@@ -23,18 +23,6 @@ This project consists of an application to check the weather of any city in the 
 `OpenWeather API` in order to get the current weather conditions of the desired city. Also it makes a request to the `Unsplash API`
 in order to get a random image depending on the weather conditions of the requested city and placed as background.
 
-#### Search bar
-
-In order to get the current weather of any city in the world, fill the `input` with the name of the city in the search bar
-choose the desired metric system by clicking the `C°` or the `F°` units, then click the `Q` button to make the request.
-![search](./screenshots/searchbar.png)
-
-#### result div
-
-Once you click the `Q` button, it will fill the central `div` with the weather information of the requested city. It shows
-information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `country` and so on.
-![weather](./screenshots/result.png)
-
 > To get a local copy up and running follow these simple example steps.
  
 ### Prerequisites
@@ -58,6 +46,17 @@ To install the requires packages do the following
 
 ### Usage
 
+#### Search bar
+
+In order to get the current weather of any city in the world, fill the `input` with the name of the city in the search bar
+choose the desired metric system by clicking the `C°` or the `F°` units, then click the `Q` button to make the request.
+![search](./screenshots/searchbar.png)
+
+#### result div
+
+Once you click the `Q` button, it will fill the central `div` with the weather information of the requested city. It shows
+information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `country` and so on.
+![weather](./screenshots/result.png)
 
 ### Run tests
 
