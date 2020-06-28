@@ -74,9 +74,9 @@ To build the project do the following
 
 ### Future features
 
-- icons on the search input
-- improve search bar effect
-- redefine background colors to make characters more visible
+- Icons on the search input
+- Improve search bar effect
+- Redefine background colors to make characters more visible
 
 ## Authors
 
