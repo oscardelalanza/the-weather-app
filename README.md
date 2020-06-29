@@ -28,21 +28,21 @@ in order to get a random image depending on the weather conditions of the reques
 ### Prerequisites
 
 - `npm`
-- `git`
+- `Git`
 
 ### Setup
 
-To clone the project into your local environment do the following
+To clone the project into your local environment do the following.
 
-- Open a new `terminal` window and navigate to the directory where the project will be stored
-- Run the command `git clone git@github.com:oscardelalanza/the-weather-app.git`
-- Run the command `cd the-weather-app` to enter to the project directory
+- Open a new `terminal` window and navigate to the directory where the project will be stored.
+- Run the command `git clone git@github.com:oscardelalanza/the-weather-app.git`.
+- Run the command `cd the-weather-app` to enter to the project directory.
 
 ### Install
 
-To install the requires packages do the following
+To install the requires packages do the following.
 
-- Inside `the-weather-app` directory run the command `npm install`
+- Inside `the-weather-app` directory run the command `npm install`.
 
 ### Usage
 
@@ -60,23 +60,23 @@ information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `count
 
 ### Run tests
 
-- This project doesn't contain tests
+- This project doesn't contain tests.
 
 ### Deployment
 
-To start the local development server do the following
+To start the local development server do the following.
 
-- Run the command `npm run dev` 
+- Run the command `npm run dev`.
 
-To build the project do the following
+To build the project do the following.
 
-- run the command `npm run build`
+- run the command `npm run build`.
 
 ### Future features
 
-- Icons on the search input
-- Improve search bar effect
-- Redefine background colors to make characters more visible
+- Icons on the search input.
+- Improve search bar effect.
+- Redefine background colors to make characters more visible.
 
 ## Authors
 
