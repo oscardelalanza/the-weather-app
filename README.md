@@ -58,10 +58,6 @@ Once you click the `Q` button, it will fill the central `div` with the weather i
 information like `temperature`, `wind`, `clouds`, `humidity`, `pressure`, `country` and so on.
 ![weather](./screenshots/result.png)
 
-### Run tests
-
-- This project doesn't contain tests.
-
 ### Deployment
 
 To start the local development server do the following.
